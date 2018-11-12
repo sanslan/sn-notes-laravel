@@ -1,0 +1,25 @@
+.register-page, .login-page,.add-note,.add-tag{
+    max-width: 500px;
+    margin: 70px auto;
+}
+.register-page input[type='submit'] , .login-page input[type='submit']{
+    margin-top: 20px;
+}
+.card{
+    width: calc( 25% - 10px );
+    float: left;
+    margin: 5px;
+}
+.notes-list .card-footer-item{
+    padding: 0;
+}
+.notes-list button{
+    border: none;
+    border-radius: 0;
+}
+.select2{
+    width: 100% !important;
+}
+.select2-selection{
+    border: 1px solid #23d160 !important;
+}
